@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Revathi E.V | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo-container">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
+        <h1 class="logo">Revathi E.V</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experiences</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Hi, I'm <span class="highlight">Revathi E.V</span>, a <span class="highlight">Student</span>.</p>
+    <a href="#portfolio" class="btn">View My Work</a>
+    <a href="port/Resume.pdf" class="btn" download style="margin-top: 1rem;">View Resume</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m <strong>Revathi E.V</strong>, a passionate Engineering student currently pursuing my Bachelor’s at BNM Institute of Technology. I enjoy building real-world solutions — from intuitive websites to AI-powered tools.</p>
+    <p>I’ve explored <strong>Web Development</strong>, <strong>Cybersecurity</strong>, <strong>Data Science</strong>, and <strong>Generative AI</strong>. Tech stack includes <strong>Python, Java, HTML, CSS, JavaScript, SQL</strong>, and frameworks like <strong>Streamlit</strong> and <strong>Rasa</strong>.</p>
+    <p>Projects I’ve built:</p>
+    <ul>
+      <li>Real Estate website with SQL</li>
+      <li>Government Helpdesk Chatbot</li>
+      <li>Video-to-Audio/Text Converter</li>
+      <li>Demand Forecasting using ML</li>
+      <li>Reservation Systems in C and Java</li>
+    </ul>
+    <p>Interned at <strong>Sriven Groups</strong>, working on AI, Chatbots, and Web Tech. Finalist in an <strong>IBM Hackathon</strong> enhancing educational access.</p>
+    <p>I keep learning through certifications from <strong>IBM, Infosys, Cisco, IIT Madras</strong>.</p>
+  </section>
+
+  <!-- Experience Section -->
+<section id="experience" class="info-section">
+  <h2>Experiences</h2>
+  <ul>
+    <li>
+      <strong>Data Analytics and Blockchain (Internal)</strong> — BNM Institute of Technology
+      <ul>
+        <li>Gained foundational understanding of data analytics: data collection, visualization, and actionable insights for decision-making.</li>
+        <li>Acquired knowledge of blockchain architecture, smart contracts, and secure decentralized system applications.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Generative AI (External Internship)</strong> — Sriven Groups (with stipend)
+      <ul>
+        <li>Worked with Generative AI Models.</li>
+        <li>Web development using HTML, CSS, and JavaScript.</li>
+        <li>Backend development with Node.js.</li>
+        <li>Conversational AI using Rasa.</li>
+        <li>Blog creation using AI.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>IBM Hackathon Finalist</strong> — Topic: Gen AI for Inclusive Future - Quality Education
+      <ul>
+        <li>Created formative assessments and conceptual understanding tools.</li>
+        <li>Developed activities including surveys, questionnaires, and motion games.</li>
+        <li>Managed educational resources to support inclusive learning.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Data Science Internship</strong> — ShadowFox (1 month)
+    </li>
+    <li>
+      <strong>Data Science Internship</strong> — Skillified Mentor (1 month)
+      <ul>
+        <li>Gained hands-on experience in data preprocessing, analysis, and modeling.</li>
+        <li>Built predictive models and performed statistical analysis using real-world datasets such as temperature prediction and credit card fraud details.</li>
+        <li>Applied machine learning techniques to solve business problems.</li>
+        <li>Strengthened programming and data visualization skills.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Data Science Internship</strong> — Innovate Clouds (1 month, with stipend)
+      <ul>
+        <li>Learned data analytics fundamentals and performed analysis using Excel.</li>
+        <li>Gained working knowledge of SQL and relational databases.</li>
+        <li>Created dashboards and visualizations using Power BI and Tableau.</li>
+        <li>Built Python scripts for data processing and analysis.</li>
+        <li>Completed a hands-on final project integrating data cleaning, analysis, and visualization.</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-gallery">
+
+      <!-- Repeat this block for each project -->
+      <div class="portfolio-item">
+        <img src="book.jpg" alt="Book Management System" />
+        <h3>Cloud based book management system</h3>
+        <p>Used AWS S3 to securely store book files and implemented AI-powered recommendations. Includes a "continue reading" feature synced across devices.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="diffusion.png" alt="Diffusion Model" />
+        <h3>Image based diffusion model</h3>
+        <p>Implemented image generation using Stable Diffusion. Allows image creation and editing from text prompts or base images.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="employe.jpeg" alt="Employee Performance Prediction" />
+        <h3>Employee performance prediction</h3>
+        <p>Applied data mining on warehouse data using classification and regression to predict performance and key influencing factors.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="demand.png" alt="Demand Forecasting" />
+        <h3>Dead stock and demand forecasting</h3>
+        <p>Trained ML models (Random Forest, LightGBM) to predict inventory trends and reduce dead stock for improved stock management.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="qa.jpg" alt="QnA Application" />
+        <h3>Question and Answer Application</h3>
+        <p>Built a client-server model using socket programming for real-time Q&A exchange, demonstrating network protocol concepts.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="video.jpg" alt="Video to Text" />
+        <h3>Video to audio to text</h3>
+        <p>Streamlit-based UI to extract and download both audio and transcribed text from user-provided video links using Python.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="realestate.jpg" alt="Real Estate Website" />
+        <h3>Real Estate Website</h3>
+        <p>Designed with HTML, CSS, JS and SQL backend. Allows users to explore and list properties with full interactive features.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="helpdesk.webp" alt="Helpdesk Chatbot" />
+        <h3>Government Based Helpdesk</h3>
+        <p>Python-Firebase chatbot to help government staff handle FAQs. Ensures real-time support and secure interaction storage.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="movie.jpg" alt="Movie Ticket Reservation" />
+        <h3>Movie Ticket Reservation System</h3>
+        <p>GUI app using Java Swing + JDBC with SQL backend for booking and managing user seats, payments, and preferences.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="plant.jpg" alt="Plant Monitoring System" />
+        <h3>Plant Monitoring System</h3>
+        <p>Used soil sensors and microcontrollers to automate watering. Activates pump when soil moisture drops below threshold.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="bus.webp" alt="Bus Ticket System" />
+        <h3>Bus Ticket Reservation</h3>
+        <p>Console-based C application using arrays and structures for booking logic, fare calculation, and route management.</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="blog.jpg" alt="Blogging Website" />
+        <h3>Blogging Website</h3>
+        <p>Created with HTML/CSS/JS and OTP-secured email login. Uses Gemini AI to generate personalized blog content.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div class="contact-icons">
+      <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="mailto:youremail@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Revathi E.V. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
